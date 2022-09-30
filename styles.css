@@ -72,12 +72,12 @@
 
 .product-list {
   display: flex;
-  justify-content: center;
-  padding: 40px;
+  justify-content: space-between;
+  padding: 5% 10%;
 }
 
 .product-list li {
-  padding: 25px;
+  padding: 10px;
   text-align: left;
 }
 
@@ -88,7 +88,7 @@
 .product-info {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 20%;
+  padding: 0 15%;
 }
 
 .product-info li {
@@ -102,7 +102,8 @@
 
 .product-card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 15%;
 }
 
 .product-card li {
@@ -119,8 +120,8 @@
 }
 .info-card li {
   padding: 20px;
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   background-color: lightgray;
   margin: 10px;
   text-align: center;
@@ -129,11 +130,15 @@
 .other-links {
   display: flex;
   justify-content: space-around;
+  background-color: lightgray;
+  padding: 5% 15%;
 }
 
 .footer-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 18%;
+  font-size: 10px;
 }
 
 .legal-info {
