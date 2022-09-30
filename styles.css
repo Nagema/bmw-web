@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.bmw.com.pa/content/dam/bmw/common/all-models/1-series/3-door/2017/images-videos/BMW-1series-3door-Wallpaper-890x501-01.jpg.asset.1492419145333.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  color: white;
+  width: 65%;
+  height: 5%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.main-navbar ul {
+  display: flex;
+  z-index: 2;
+  margin: 0;
+}
+
+.main-navbar ul li {
+  padding: 10px;
+}
+
+.main-navbar ul li a {
+  color: white;
+}
+
+.main-navbar button {
+  border: none;
+  background-color: transparent;
+  padding: 0 10px;
+  color: white;
+}
+
+.main-title-container {
+  color: white;
+  position: relative;
+  top: -100px;
+  padding: 0 5%;
+}
+
+.main-title-container button {
+  background-color: #00a2ff;
+  border: none;
+  width: 220px;
+  height: 40px;
+}
+
+.main-page {
+  position: relative;
+  top: 80vh;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.product-list li {
+  padding: 25px;
+  text-align: left;
+}
+
+.list-product-title {
+  padding: 10% 0 0 20%;
+}
+
+.product-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20%;
+}
+
+.product-info li {
+  max-width: 25%;
+  align-items: center;
+}
+
+.product-info img {
+  width: 30%;
+}
+
+.product-card {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card li {
+  width: 15%;
+}
+
+.video-container {
+  display: flex;
+}
+
+.info-card {
+  display: flex;
+  justify-content: center;
+}
+.info-card li {
+  padding: 20px;
+  width: 10%;
+  height: 10%;
+  background-color: lightgray;
+  margin: 10px;
+  text-align: center;
+}
+
+.other-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.legal-info {
+  display: flex;
+}
+
+.legal-info li {
+  padding: 0 10px;
+}
