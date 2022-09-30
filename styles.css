@@ -141,10 +141,14 @@
   text-align: center;
 }
 
+.other-links-container {
+    background-color: lightgray;
+}
+
 .other-links {
   display: flex;
   justify-content: space-around;
-  background-color: lightgray;
+
   padding: 5% 15%;
 }
 
@@ -161,4 +165,12 @@
 
 .legal-info li {
   padding: 0 10px;
+}
+
+.other-links-container hr {
+    position: relative;
+    top: 20px;
+    border-top: 1px solid darkgray;
+    width: 70%;
+    margin: auto;
 }
