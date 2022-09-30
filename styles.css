@@ -103,17 +103,31 @@
 .product-card {
   display: flex;
   justify-content: space-between;
-  padding: 0 15%;
+  padding: 5% 15%;
 }
 
 .product-card li {
-  width: 15%;
+  width: 60%;
+  padding: 10px 10px 10px 0;
 }
 
-.video-container {
+.product-card img {
+    width: 100%;
+
+  }
+
+.product-card h1 {
+    font-size: 20px;
+}
+
+.video-card {
   display: flex;
+  justify-content: center;
 }
 
+.video-card li {
+    padding-left: 10px;
+} 
 .info-card {
   display: flex;
   justify-content: center;
